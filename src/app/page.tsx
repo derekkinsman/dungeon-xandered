@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Xandering the Dungeon',
+  description: 'Allegedly.'
 }
 
 export default function Page() {
