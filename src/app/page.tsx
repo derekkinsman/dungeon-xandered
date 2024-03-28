@@ -13,5 +13,7 @@ export default function Page() {
     <ol>
       <li>to take credit for something someone else has made.</li>
     </ol>
+    <p>Words that May Be Confused with Xandering</p>
+    <p><a href='https://jaquaysingthedungeon.com/'>Jaquaysing</a></p>
   </>
 }
