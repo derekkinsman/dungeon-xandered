@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Xandering the Dungeon',
     description: "It's 'Jaquaysing' and only 'Jaquaysing'.",
-    creator: '@derekkinsman',
     images: ['https://xanderingthedungeon.com/card.png'], // Must be an absolute URL
   },
 }
