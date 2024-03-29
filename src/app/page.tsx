@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return <section className={`${page.section}`}>
     <section className={`${page.word}`}>
-      <h1 className={`${page.title}`}>Xandering [zan-der-ing]</h1>
+      <h1 className={`${page.title}`}><span>Xandering</span> [zan-der-ing]</h1>
       <p className={`${page.type}`}>verb</p>
       <ol className={`${page.definitions}`}>
         <li className={`${page.definition}`}>to take credit for something someone else has made.</li>

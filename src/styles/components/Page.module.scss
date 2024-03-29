@@ -7,7 +7,7 @@
 }
 
 @mixin block {
-  background-color: #fff;
+  background-color: $white;
   margin: 21px;
   padding: 21px;
 
@@ -29,7 +29,6 @@
 
 .word {
   @include block;
-
 }
 
 .additional {
@@ -38,10 +37,15 @@
 
 .title {
   @include reset;
-  font-family: 'Windsor Pro Bold';
+  font-family: 'Windsor Pro Regular';
   font-size: 3rem;
   padding-bottom: 21px;
   text-transform: lowercase;
+
+  span {
+    color: $cbc-vintage-red;
+    font-family: 'Windsor Pro Bold';
+  }
 }
 
 .type {
@@ -70,4 +74,13 @@
 
 .wordlist {
   @include reset;
+
+  a {
+    color: $cbc-vintage-red;
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: $k-black;
+    }
+  }
 }
