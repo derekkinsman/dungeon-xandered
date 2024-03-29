@@ -39,8 +39,13 @@
   @include reset;
   font-family: 'Windsor Pro Regular';
   font-size: 3rem;
+  line-height: 3rem;
   padding-bottom: 21px;
   text-transform: lowercase;
+
+  @media only screen and (min-width: $max) {
+    line-height: 1rem;
+  }
 
   span {
     color: $cbc-vintage-red;
