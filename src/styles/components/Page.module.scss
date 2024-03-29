@@ -6,8 +6,8 @@
   padding: 0;
 }
 
-@mixin block {
-  background-color: $white;
+@mixin block($prop) {
+  background-color: $prop;
   margin: 21px;
   padding: 21px;
 
@@ -15,6 +15,21 @@
     margin: 42px;
     padding: 42px;
   }
+}
+
+@mixin link {
+  a {
+    color: $cbc-vintage-red;
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: $k-black;
+    }
+  }
+}
+
+.sr_only {
+  display: none;
 }
 
 .section {
@@ -27,12 +42,10 @@
   padding: 0;
 }
 
-.word {
-  @include block;
-}
-
-.additional {
-  @include block;
+.word,
+.additional,
+.plugin {
+  @include block($white);
 }
 
 .title {
@@ -79,13 +92,29 @@
 
 .wordlist {
   @include reset;
+  @include link;
+}
+
+.plugin {
+  @include link;
+}
+
+.footer {
+  @include block($background-alt);
+  padding-left: 0;
+  text-align: center;
+
+  @media only screen and (min-width: $max) {
+    padding-left: 0;
+    text-align: left;
+  }
 
   a {
-    color: $cbc-vintage-red;
-    transition: color 0.5s ease;
-
-    &:hover {
-      color: $k-black;
-    }
+    display: inline-block;
   }
+}
+
+.snail {
+  filter: grayscale(1);
+  width: 100px;
 }

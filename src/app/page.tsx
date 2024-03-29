@@ -43,5 +43,11 @@ export default function Page() {
       <p className={`${page.confusion}`}>Words that May Be Confused with Xandering:</p>
       <p className={`${page.wordlist}`}><a href='https://jaquaysingthedungeon.com/'>Jaquaysing</a></p>
     </section>
+    <section className={`${page.plugin}`}>
+      <p><a href='https://github.com/zacbir/jaquaysing' target='_blank'>Jaquays the Internet</a> with this browser extension.</p>
+    </section>
+    <section className={`${page.footer}`}>
+      <a href="https://derekkinsman.com/" target="_blank"><span className={`${page.sr_only}`}>Derek Kinsman dot com</span><img src="./snail.png" aria-hidden="true" className={`${page.snail}`} /></a>
+    </section>
   </section>
 }
