@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Windsor Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Windsor Pro Regular'), url('/fonts/WindsorProRg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Windsor Pro Elongated';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Windsor Pro Elongated'), url('/fonts/WindsorProElongated.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Windsor Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Windsor Pro Bold'), url('/fonts/WindsorProBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Windsor Pro Extra Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Windsor Pro Extra Bold Condensed'), url('/fonts/WindsorProXBoldCn.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Windsor Pro Ultra Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Windsor Pro Ultra Heavy'), url('/fonts/WindsorProUltHv.woff') format('woff');
+}
+
+/*
+Font: 		Embro
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T11802/embro
+Foundry: 	Flatface
+Foundry: 	https://www.youworkforthem.com/designer/1325/flatface
+Copyright:	Copyright © 2019 by Andi Ibrahim . All rights reserved.
+Version: 	17
+Created:	January 23, 2020
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Embro';
+	src:  url('/fonts/embro/embro-bold.eot');
+	src:  url('/fonts/embro/embro-bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/embro/embro-bold.woff2') format('woff2'),
+	      url('/fonts/embro/embro-bold.woff') format('woff'),
+	      url('/fonts/embro/embro-bold.ttf') format('truetype'),
+	      url('/fonts/embro/embro-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,47 @@
+// COLOURS
+$black: rgba(0, 0, 0, 1);
+$k-black: rgba(56, 54, 52, 1);
+$magenta: rgba(227, 133, 180, 1);
+$background: rgba(248, 241, 224, 1);
+$background-alt: rgba(238, 237, 235, 1);
+$background-transparent: rgba(248, 241, 224, 0.25);
+$cyan: rgba(104, 204, 242, 1);
+$cbc-vintage-red: rgba(230, 29, 22, 1);
+$synth-1: rgba(250, 245, 0, 1);
+$synth-2: rgba(88, 167, 175, 1);
+$synth-3: rgba(140, 30, 255, 1);
+
+$link: rgba(127, 127, 127, 1);
+$link-hover: $cbc-vintage-red;
+$link-hover-hobby: $link-hover;
+$link-hover-personal: $link-hover;
+$link-hover-work: $link-hover;
+
+// FONT FAMILIES
+$fallback: Helvetica, Arial, Sans-Serif;
+$regular: 'Analogue-Regular', $fallback;
+$italic: 'Analogue-Italic', $fallback;
+$bold: 'Analogue-Bold', $fallback;
+$bold-italic: 'Analogue-BoldItalic', $fallback;
+$settings: 'aalt=0,ccmp=0,dlig=0,liga=0,locl=0,ss01=0,ss02=0,ss03=0,ss04=0';
+
+$pink-coast: 'PinkCoast', $fallback;
+
+$viva-thin: 'VivaKaiva-Thin', $fallback;
+$viva-light: 'VivaKaiva-Light', $fallback;
+$viva-regular: 'VivaKaiva-Regular', $fallback;
+$viva-medium: 'VivaKaiva-Medium', $fallback;
+$viva-bold: 'VivaKaiva-Bold', $fallback;
+
+$embro: 'Embro', $fallback;
+$numismatic: 'P22Numismatic', $fallback;
+$lucida: 'Lucida Grande', $fallback;
+$script: 'Brush Script MT', $fallback;
+
+// SPACING
+$max: 1000px;
+$super-max: 1000px;
+$life: 4rem;
+$line-height: 1.5rem;
+$line-height-half: 0.75rem;
+$devil: 0.5rem;

@@ -1,0 +1,73 @@
+@import '@styles/vars';
+@import '@styles/fonts';
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin block {
+  background-color: #fff;
+  margin: 21px;
+  padding: 21px;
+
+  @media only screen and (min-width: $max) {
+    margin: 42px;
+    padding: 42px;
+  }
+}
+
+.section {
+  @include reset;
+
+  font-family: 'Windsor Pro Regular', Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.word {
+  @include block;
+
+}
+
+.additional {
+  @include block;
+}
+
+.title {
+  @include reset;
+  font-family: 'Windsor Pro Bold';
+  font-size: 3rem;
+  padding-bottom: 21px;
+  text-transform: lowercase;
+}
+
+.type {
+  @include reset;
+
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.definitions {
+  @include reset;
+  margin-left: 13px;
+}
+
+.definition {
+  @include reset;
+}
+
+.confusion {
+  @include reset;
+  font-family: 'Embro', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.wordlist {
+  @include reset;
+}
